@@ -1,0 +1,132 @@
+
+// ====================================
+// Menu
+// ====================================
+.navbar {
+  height: 100px;
+  .navbar-nav {
+    .nav-item {
+      margin-right: 20px;
+      font-weight: bold;
+      // font-family: $primary-font;
+      &:hover {
+        .nav-link {
+          color: $primary-color;
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      .nav-link {
+        color: $light;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+      img{
+        width:200px;
+      }
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding-left: 5%;
+  padding-right: 5%;
+  // background: #212121;
+  // background: $primary-color;
+  // box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63);
+}
+
+.darkHeader {
+  // background: $primary-color;
+  background: #212121;
+  box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63);
+  padding:4px 0;
+  animation:slide-down 0.7s;
+  opacity:0.9;
+}
+                 
+@keyframes slide-down {
+  0% {
+      opacity: 0;
+      @include transform(translateY(-100%));
+  } 
+  100% {
+      opacity: 0.9;
+      @include transform(translateY(0));
+  } 
+}
+
+
+@media (max-width: 767px){
+
+.mainmenu-expand.slide_right {
+    overflow-y: auto;
+}
+}
+.header-black.mainmenu-expand {
+    background-color: rgb(0, 0, 0);
+}
+
+.mainmenu-expand.slide_right {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px;
+    right: 0px;
+}
+.mainmenu-expand {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    position: fixed;
+    right: -100%;
+    text-align: center;
+    top: 0px;
+    width: 300px;
+    z-index: 99999;
+    padding: 30px 0px;
+    transition: all 0.5s ease 0s;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.expand-menu-open.show-on-mobile {
+    display: block;
+}
+}
+.expand-menu-open {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    z-index: 3;
+}
+.show-on-mobile {
+    display: none;
+}
+
+
+.expand-menu-open span:last-child {
+    margin-top: 2px;
+    width: 12px;
+    float: right;
+}
+.expand-menu-open span {
+    display: block;
+    height: 2px;
+    background: none 0px 0px repeat scroll rgb(64, 64, 64);
+    transition: all 0.3s ease 0s;
+}
+
+.expand-menu-open span:first-child {
+  width: 20px;
+}
+.expand-menu-open span {
+  display: block;
+  height: 2px;
+  background: none 0px 0px repeat scroll rgb(64, 64, 64);
+  transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,61 @@
+// ====================================
+// Service
+// ====================================
+.service {
+    .go-top {
+        position: relative;
+        margin-top: -80px;
+    }
+    .left-part {
+        background: url(../../img/service/service-bg.png) no-repeat;
+        background-position: 100% 100%;
+        background-size: cover;
+        min-height: 470px;
+        width: 100%;
+        .overlay {
+            background: rgba(13, 145, 132, 0.9)
+        }
+        .content {
+            padding: 50px 28px 30px;
+            position: relative;
+            h3 {
+                color: $light;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            p {
+                color: $light;
+            }
+        }
+        .bottom-part {
+            position: relative;
+            bottom: 0px;
+            .service-btn {
+                margin-left: 10px;
+                &:hover {
+                    background: $light;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .right-part {
+        padding: 120px 30px;
+        box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
+        background: $light;
+        .box {
+            @include flex(flex);
+            align-items: flex-start;
+            h3 {
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+        }
+        .box1, .box2 {
+            margin-bottom: 30px;
+        }
+    }
+}
