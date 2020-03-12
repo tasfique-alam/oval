@@ -29,7 +29,7 @@
   font-weight: 300; }
 
 body {
-  color: #000;
+  color: #181414;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 300;
@@ -79,7 +79,7 @@ iframe {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins";
-  color: #000;
+  color: #181414;
   line-height: 1.1em;
   margin-bottom: 0;
   margin-top: 0;
@@ -501,6 +501,17 @@ hr:after {
   padding-left: 5%;
   padding-right: 5%; }
 
+#headerProfile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #212121;
+  box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63); }
+
 .darkHeader {
   background: #212121;
   box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63);
@@ -643,19 +654,15 @@ hr:after {
     margin-bottom: 50px; }
 
 .service .go-top {
-  position: relative;
-  margin-top: -80px; }
+  margin-top: 150px; }
 .service .left-part {
-  background: url(../../img/service/service-bg.png) no-repeat;
+  background: url(../../img/mondol.jpg) no-repeat;
   background-position: 100% 100%;
-  background-size: cover;
-  min-height: 470px;
+  background-size: contain;
+  min-height: 580px;
   width: 100%; }
-  .service .left-part .overlay {
-    background: rgba(13, 145, 132, 0.9); }
   .service .left-part .content {
-    padding: 50px 28px 30px;
-    position: relative; }
+    padding: 50px 28px 30px; }
     .service .left-part .content h3 {
       color: #FFFFFF;
       text-transform: uppercase;
@@ -672,8 +679,80 @@ hr:after {
       .service .left-part .bottom-part .service-btn:hover {
         background: #FFFFFF;
         color: #39ddf5; }
+.service .left-part2 {
+  background: url(../../img/mondol.jpg) no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  min-height: 580px;
+  width: 100%; }
+  .service .left-part2 .content {
+    padding: 50px 28px 30px; }
+    .service .left-part2 .content h3 {
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-weight: 700; }
+    .service .left-part2 .content p {
+      color: #FFFFFF; }
+  .service .left-part2 .bottom-part2 {
+    position: relative;
+    bottom: 0px; }
+    .service .left-part2 .bottom-part2 .service-btn {
+      margin-left: 10px; }
+      .service .left-part2 .bottom-part2 .service-btn:hover {
+        background: #FFFFFF;
+        color: #39ddf5; }
+.service .left-part3 {
+  background: url(../../img/mondol.jpg) no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  min-height: 580px;
+  width: 100%; }
+  .service .left-part3 .content {
+    padding: 50px 28px 30px; }
+    .service .left-part3 .content h3 {
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-weight: 700; }
+    .service .left-part3 .content p {
+      color: #FFFFFF; }
+  .service .left-part3 .bottom-part3 {
+    position: relative;
+    bottom: 0px; }
+    .service .left-part3 .bottom-part3 .service-btn {
+      margin-left: 10px; }
+      .service .left-part3 .bottom-part3 .service-btn:hover {
+        background: #FFFFFF;
+        color: #39ddf5; }
+.service .left-part4 {
+  background: url(../../img/mondol.jpg) no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  min-height: 580px;
+  width: 100%; }
+  .service .left-part4 .content {
+    padding: 50px 28px 30px; }
+    .service .left-part4 .content h3 {
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-weight: 700; }
+    .service .left-part4 .content p {
+      color: #FFFFFF; }
+  .service .left-part4 .bottom-part4 {
+    position: relative;
+    bottom: 0px; }
+    .service .left-part4 .bottom-part4 .service-btn {
+      margin-left: 10px; }
+      .service .left-part4 .bottom-part4 .service-btn:hover {
+        background: #FFFFFF;
+        color: #39ddf5; }
 .service .right-part {
-  padding: 120px 30px;
+  padding: 40px 30px;
   box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
   background: #FFFFFF; }
   .service .right-part .box {
@@ -682,10 +761,76 @@ hr:after {
     align-items: flex-start; }
     .service .right-part .box h3 {
       font-weight: 600;
-      text-transform: uppercase;
-      margin-bottom: 10px; }
+      text-transform: capitalize;
+      margin-bottom: 6px; }
   .service .right-part .box1, .service .right-part .box2 {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
+.service .right-part2 {
+  padding: 40px 30px;
+  box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
+  background: #FFFFFF; }
+  .service .right-part2 .box {
+    display: flex;
+    -ms-display: flex;
+    align-items: flex-start; }
+    .service .right-part2 .box h3 {
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 6px; }
+  .service .right-part2 .box1, .service .right-part2 .box2 {
+    margin-bottom: 20px; }
+.service .right-part3 {
+  padding: 40px 30px;
+  box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
+  background: #FFFFFF; }
+  .service .right-part3 .box {
+    display: flex;
+    -ms-display: flex;
+    align-items: flex-start; }
+    .service .right-part3 .box h3 {
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 6px; }
+  .service .right-part3 .box1, .service .right-part3 .box2 {
+    margin-bottom: 20px; }
+.service .right-part4 {
+  padding: 40px 30px;
+  box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
+  background: #FFFFFF; }
+  .service .right-part4 .box {
+    display: flex;
+    -ms-display: flex;
+    align-items: flex-start; }
+    .service .right-part4 .box h3 {
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 6px; }
+  .service .right-part4 .box1, .service .right-part4 .box2 {
+    margin-bottom: 20px; }
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fb {
+  background: #3B5998;
+  color: white; }
+
+.insta {
+  background: #125688;
+  color: white; }
+
+.gg {
+  background: #dd4b39;
+  color: white; }
 
 .company {
   background: url(../../img/company/company-bg.png) no-repeat;
@@ -693,5 +838,76 @@ hr:after {
   padding-top: 120px; }
   .company .graph {
     padding: 80px 0; }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background: linear-gradient(to left, #000 0%, #000 100%);
+  height: 420px;
+  margin-top: 100px;
+  padding-top: 100px;
+  border-radius: 0px 150px 0px 0px !important; }
+  .footer__image {
+    width: 150px;
+    margin-bottom: 30px; }
+  .footer__sm-title {
+    font-weight: 100;
+    color: #ffffff; }
+  .footer__text {
+    font-size: 14px;
+    color: #ffffff; }
+  .footer__quick-link {
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    font-size: 14px; }
+  .footer__link {
+    list-style-type: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-left: 0;
+    font-size: 14px; }
+    .footer__link li a {
+      text-decoration: none;
+      transition: all 0.3s ease-in-out; }
+
+.footer-link {
+  color: #ffffff;
+  padding-top: 20px !important; }
+  .footer-link:hover {
+    color: #f5b52f !important; }
+
+.social i {
+  color: #ffffff !important;
+  font-size: 20px;
+  transition: 0.3s ease-in-out all; }
+  .social i:hover {
+    transform: scale(1.3);
+    color: #009688 !important; }
+
+.bottom__line {
+  background: #ffffff;
+  margin: 0px 0px; }
+.bottom__text {
+  color: #ffffff;
+  padding-top: 36px;
+  text-align: center; }
+
+.go-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px; }
+  .go-to-top a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    box-shadow: 7px 7px 150px 27px rgba(206, 223, 219, 0.212);
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #39ddf5;
+    font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */

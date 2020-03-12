@@ -44,6 +44,20 @@
   // box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63);
 }
 
+#headerProfile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #212121;
+  // background: $primary-color;
+  box-shadow: 0px 11px 27px rgba(0, 0, 0, 0.63);
+}
+
+
 .darkHeader {
   // background: $primary-color;
   background: #212121;
