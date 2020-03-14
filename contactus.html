@@ -26,11 +26,11 @@
     <!-- *********** Fonts *********** -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    
+
 </head>
 
 <body>
-    <!-- ================== Start Header ================== -->
+
     <header id="headerProfile">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="index.html">
@@ -67,109 +67,69 @@
         </nav>
     </header>
 
-<body>
-    <!-- ================== Start Header ================== -->
-    <header id="headerProfile">
-        <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/oval.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./About.html">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./management.html">management</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">marketing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">company profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contacts</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- <div class="expand-menu-open hide-on-mobile">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+    <body>
 
-            <div class="expand-menu-open show-on-mobile">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> -->
-        </nav>
-    </header>
-   
+        <div class="headerContact mt-200">
+            <h1 class="text-center"> Contact Us</h1>
+        </div>
 
+        <div id="form" class="pb-40">
 
+            <div class="fish" id="fish"></div>
+            <div class="fish" id="fish2"></div>
 
-    <!--================== Start Company Value ================== -->
-    <section class="company" style="margin-top: 100px;">
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div>
-                        <img class="img-fluid" src="img/company/face.png" alt="">
-                    </div>
+            <form id="waterform" method="post">
+
+                <div class="formgroup" id="name-form">
+                    <label for="name">Your name*</label>
+                    <input type="text" id="name" name="name" />
                 </div>
 
-                <div class="col-lg-6">
-                    <h2 class="heading">OUR VISION</h2>
-                    <p style="margin-top: 20px;">oval Accessories Vision is to Bangladesh Textile & Garments industry all kinds of accessories, Fabrics, lace and other items support good quality and affordable price.
-                        Also we want provide the good price support and short time delivery and customer can get support on the mean when they are free can contact with our on line contact.</p>
-
-                    <div class="graph">
-                        <img class="img-fluid" src="img/company/graph.png" alt="">
-                        <h2 class="heading">OUR MISSION</h2>
-                    <p style="margin-top: 20px;">Oval Accessories is a 100% Export oriented Textile & Garments Accessories & Fabrics supplier & Manufacturing company.
-                        Oval Accessories Mission is to offer the most comparative price, Export quality & prompt delivery to buyer.
-                        We are ensure the any kinds of high test requirements as per customer requirements.</p>
-
-                    </div>
+                <div class="formgroup" id="email-form">
+                    <label for="email">Your e-mail*</label>
+                    <input type="email" id="email" name="email" />
                 </div>
+
+                <div class="formgroup" id="message-form">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <input type="submit" value="Send your message!" />
+            </form>
+        </div>
+
+        <div>
+            <h1 class="text-center" style="margin-top: 60px; margin-bottom: 60px;">Address in Google Maps</h1>
+
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14604.944003271834!2d90.42194549999999!3d23.774608999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1584169195337!5m2!1sen!2sbd" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><a
+                            href="https://www.embedgooglemap.org"></a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            /* height: 500px;
+                            width: 1000px; */
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 500px;
+                            width: 1200px;
+                        }
+                    </style>
+
             </div>
         </div>
-    </section>
-    <!-- ================== End Company Value ================== -->
 
-    <!-- ================== About company started ================== -->
-    <section id="projects">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_head text-center">
-                        <h1>About US</h1>
-                        <hr class="mx-auto line">
-                    </div>
-                    <P class="about-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</P>
-                </div>
-            </div>
-        </div>
-    </section>
+    </body>
+    <!-- ================== Start Footer ================== -->
 
-    <!-- ================== About company end ================== -->
-
-     <!-- ================== Start Footer ================== -->
-
-       <footer class="footer-section" style="margin-top: 50px;>
+    <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
@@ -210,14 +170,15 @@
                                 <a href="index.html"><img src="./img/oval.png" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                    incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span><i>Follow us</i></span>
-                                <a href="https://www.facebook.com/sky.tasfique"><i
-                                    class="fa fa-facebook fb"></i> </a>
-                                <a href="https://www.linkedin.com/in/syed-tasfique-alam-352306174/"><i class="fa fa-google gg"></i> </a>
+                                <a href="https://www.facebook.com/sky.tasfique"><i class="fa fa-facebook fb"></i> </a>
+                                <a href="https://www.linkedin.com/in/syed-tasfique-alam-352306174/"><i
+                                        class="fa fa-google gg"></i> </a>
                                 <a href="#"><i class="fa fa-instagram insta"></i> </a>
                             </div>
                         </div>
@@ -262,7 +223,8 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy;2020, All Right Reserved <a href="https://tasfique-alam.000webhostapp.com">Tasfique Alam</a></p>
+                            <p>Copyright &copy;2020, All Right Reserved <a
+                                    href="https://tasfique-alam.000webhostapp.com">Tasfique Alam</a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -282,19 +244,3 @@
     </footer>
 
     <!-- ================== End Footer ================== -->
-
-
-    <!-- *********** Js Link *********** -->
-    <script src="vendor/js/jquery.min.js"></script>
-    <script src="vendor/js/popper.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
-    <script src="vendor/js/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-    <script src="dist/js/main.js"></script>
-    <script>AOS.init({
-        duration: 1200,
-      })
-      </script>
-</body>
-
-</html>
