@@ -29,7 +29,7 @@
   font-weight: 300; }
 
 body {
-  color: #181414;
+  color: #000;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 300;
@@ -79,7 +79,7 @@ iframe {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins";
-  color: #181414;
+  color: #000;
   line-height: 1.1em;
   margin-bottom: 0;
   margin-top: 0;
@@ -141,7 +141,7 @@ html, body {
   outline: none; }
 
 .buttonbanner-hover.color-1 {
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  background-image: linear-gradient(to right, #009688, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); }
 
 .buttonbanner-hover.color-8 {
@@ -175,7 +175,7 @@ html, body {
   bottom: 0; }
 
 hr {
-  color: #39ddf5;
+  color: #009688;
   border: 1px solid #E8E8E8;
   margin: 1em;
   width: 75px;
@@ -187,14 +187,14 @@ hr:before {
   position: absolute;
   height: 10px;
   width: 10px;
-  background: #39ddf5;
+  background: #009688;
   left: 50%;
   transform: translate(-3px, -4px); }
 
 hr:after {
   content: '';
   width: 40px;
-  border: 3px solid #39ddf5;
+  border: 3px solid #009688;
   position: absolute;
   transform: translate(-19px, -2px); }
 
@@ -482,7 +482,7 @@ hr:after {
     margin-right: 20px;
     font-weight: bold; }
     .navbar .navbar-nav .nav-item:hover .nav-link {
-      color: #39ddf5; }
+      color: #009688; }
     .navbar .navbar-nav .nav-item:last-child {
       margin-right: 0; }
     .navbar .navbar-nav .nav-item .nav-link {
@@ -678,7 +678,7 @@ hr:after {
       margin-left: 10px; }
       .service .left-part .bottom-part .service-btn:hover {
         background: #FFFFFF;
-        color: #39ddf5; }
+        color: #009688; }
 .service .left-part2 {
   background: url(../../img/mondol.jpg) no-repeat;
   background-position: 100% 100%;
@@ -702,7 +702,7 @@ hr:after {
       margin-left: 10px; }
       .service .left-part2 .bottom-part2 .service-btn:hover {
         background: #FFFFFF;
-        color: #39ddf5; }
+        color: #009688; }
 .service .left-part3 {
   background: url(../../img/mondol.jpg) no-repeat;
   background-position: 100% 100%;
@@ -726,7 +726,7 @@ hr:after {
       margin-left: 10px; }
       .service .left-part3 .bottom-part3 .service-btn:hover {
         background: #FFFFFF;
-        color: #39ddf5; }
+        color: #009688; }
 .service .left-part4 {
   background: url(../../img/mondol.jpg) no-repeat;
   background-position: 100% 100%;
@@ -750,7 +750,7 @@ hr:after {
       margin-left: 10px; }
       .service .left-part4 .bottom-part4 .service-btn:hover {
         background: #FFFFFF;
-        color: #39ddf5; }
+        color: #009688; }
 .service .right-part {
   padding: 40px 30px;
   box-shadow: 5px 5px 48px rgba(221, 221, 221, 0.45);
@@ -808,7 +808,7 @@ hr:after {
   .service .right-part4 .box1, .service .right-part4 .box2 {
     margin-bottom: 20px; }
 
-.fa {
+.fb .insta .gg {
   padding: 20px;
   font-size: 100px;
   width: 50px;
@@ -816,9 +816,8 @@ hr:after {
   border-radius: 50px;
   text-decoration: none;
   margin: 5px 2px; }
-
-.fa:hover {
-  opacity: 0.7; }
+  .fb .insta .gg:hover {
+    opacity: 0.7; }
 
 .fb {
   background: #3B5998;
@@ -839,75 +838,195 @@ hr:after {
   .company .graph {
     padding: 80px 0; }
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  background-color: transparent;
-  background: linear-gradient(to left, #000 0%, #000 100%);
-  height: 420px;
-  margin-top: 100px;
-  padding-top: 100px;
-  border-radius: 0px 150px 0px 0px !important; }
-  .footer__image {
-    width: 150px;
-    margin-bottom: 30px; }
-  .footer__sm-title {
-    font-weight: 100;
-    color: #ffffff; }
-  .footer__text {
-    font-size: 14px;
-    color: #ffffff; }
-  .footer__quick-link {
-    transition: all 0.3s ease-in-out;
-    color: #ffffff;
-    font-size: 14px; }
-  .footer__link {
-    list-style-type: none;
-    text-transform: capitalize;
-    color: #ffffff;
-    padding-left: 0;
-    font-size: 14px; }
-    .footer__link li a {
-      text-decoration: none;
-      transition: all 0.3s ease-in-out; }
+hr {
+  color: #009688;
+  border: 1px solid #E8E8E8;
+  margin: 1em;
+  width: 75px;
+  transform: translate(10px, 0px); }
 
-.footer-link {
-  color: #ffffff;
-  padding-top: 20px !important; }
-  .footer-link:hover {
-    color: #f5b52f !important; }
+hr:before {
+  content: '';
+  border-radius: 100%;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #009688;
+  left: 50%;
+  transform: translate(-3px, -4px); }
 
-.social i {
-  color: #ffffff !important;
+hr:after {
+  content: '';
+  width: 40px;
+  border: 3px solid #009688;
+  position: absolute;
+  transform: translate(-19px, -2px); }
+
+.line {
+  margin-top: 21px;
+  margin-bottom: 10px; }
+
+.about-text {
+  padding: 50px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+.footer-section {
+  background: #151414;
+  position: relative; }
+
+.footer-cta {
+  border-bottom: 1px solid #373636; }
+
+.single-cta i {
+  color: #009688;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px; }
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block; }
+
+.cta-text h4 {
+  color: #fff;
   font-size: 20px;
-  transition: 0.3s ease-in-out all; }
-  .social i:hover {
-    transform: scale(1.3);
-    color: #009688 !important; }
+  font-weight: 600;
+  margin-bottom: 2px; }
 
-.bottom__line {
-  background: #ffffff;
-  margin: 0px 0px; }
-.bottom__text {
-  color: #ffffff;
-  padding-top: 36px;
-  text-align: center; }
+.cta-text span {
+  color: #FFFFFF;
+  font-size: 15px; }
 
-.go-to-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px; }
-  .go-to-top a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    box-shadow: 7px 7px 150px 27px rgba(206, 223, 219, 0.212);
-    text-align: center;
-    border-radius: 50%;
-    color: #ffffff;
-    background: #39ddf5;
-    font-size: 16px; }
+.footer-content {
+  position: relative;
+  z-index: 2; }
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%; }
+
+.footer-logo {
+  margin-bottom: 30px; }
+
+.footer-logo img {
+  max-width: 200px; }
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px; }
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px; }
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px; }
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%; }
+
+.facebook-bg {
+  background: #3B5998; }
+
+.twitter-bg {
+  background: #55ACEE; }
+
+.google-bg {
+  background: #DD4B39; }
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative; }
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #009688; }
+
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px; }
+
+.footer-widget ul li a:hover {
+  color: #009688; }
+
+.footer-widget ul li a {
+  color: #FFFFFF;
+  text-transform: capitalize; }
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden; }
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff; }
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #009688;
+  padding: 13px 20px;
+  border: 1px solid #009688;
+  top: 0; }
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg); }
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0; }
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #FFFFFF; }
+
+.copyright-text p a {
+  color: #009688; }
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px; }
+
+.footer-menu li:hover a {
+  color: #009688; }
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
