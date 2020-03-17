@@ -1,0 +1,36 @@
+.profile{
+    margin-top: 100px;
+  
+}
+
+.profile-image{
+    width: '100%';
+    height: 580px;;
+}
+
+.head{
+    margin-top: 50px;
+    padding: 100px;
+}
+
+ol {
+    list-style: none;
+    color: #ccc;
+  }
+  
+  ol li {
+    font: bold 24pt helvetica, arial, sans-serif;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  li p {
+    font: 12pt helvetica, arial, sans-serif;
+    color: #555;
+    padding-left: 60px;
+  }
+  
+  span {
+    position: absolute;
+    line-height: 25px;
+  }

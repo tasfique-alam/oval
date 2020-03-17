@@ -147,3 +147,21 @@ color: $primary-color;
 font-size: 14px;
 color: $light;
 }
+
+.go-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    box-shadow: $box-shadow;
+    text-align: center;
+    border-radius: 50%;
+    color: $light-color;
+    background: $primary-color;
+    font-size: 20px;
+  }
+}

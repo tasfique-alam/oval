@@ -91,4 +91,41 @@ var marker = new google.maps.Marker({
 }
 
 
+//scroll to top
+
+$("a[href='#top']").on('click', function() {
+  $("html, body").animate({ scrollTop: 0 }, 1000);
+  return false;
+});
+
+$(window).on('scroll', function() {
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 100) {
+      $('.go-to-top').show();
+  } else {
+      $('.go-to-top').hide();
+  }
+});
+
+
+
+// external js: isotope.pkgd.js
+
+$(document).ready( function() {   
+
+  $('.grid').isotope({
+    itemSelector: '.grid-item',
+
+  });
+  
+  // filter items on button click
+  $('.filter-button-group').on( 'click', 'li', function() {
+    var filterValue = $(this).attr('data-filter');
+    $('.grid').isotope({ filter: filterValue });
+    $('.filter-button-group li').removeClass('active');
+    $(this).addClass('active');
+  });
+      })
+
 
