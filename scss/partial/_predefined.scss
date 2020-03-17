@@ -42,6 +42,8 @@ html,body {
     transition: all .4s ease-in-out;
 }
 
+
+
 .buttonbanner-hover:hover {
     background-position: 100% 0;
     -o-moz-transition: all .4s ease-in-out;
@@ -59,7 +61,7 @@ html,body {
 }
 
 .buttonbanner-hover.color-8 {
-    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    background-image: linear-gradient(to right,#ED4264 0%, #FFEDBC 51%, #ED4264 100%);
     box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
@@ -95,6 +97,19 @@ html,body {
     top: 0;
     bottom: 0;
 }
+
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    }
+    .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    }
 
 // heading stop start
 hr {
