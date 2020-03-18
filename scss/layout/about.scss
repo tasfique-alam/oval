@@ -14,28 +14,30 @@
 // heading stop start
 hr {
     color: $primary-color;
-    border: 1px solid #E8E8E8;
+    border: 1px solid $primary-color;
     margin: 1em;
-    width: 75px;
-    transform: translate(10px, 0px);
+    width: 155px;
+    transform: translate(0px, 0px);
   }
-  hr:before {
-    content: '';
-    border-radius: 100%;
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background: $primary-color;
-    left: 50%;
-    transform: translate(-3px, -4px);
-  }
+  // hr:before {
+  //   content: '';
+  //   border-radius: 100%;
+  //   position: absolute;
+  //   height: 10px;
+  //   border: 3px solid $primary-color;
+  //   width: 10px;
+  //   background: $primary-color;
+  //   left: 50%;
+  //   transform: translate(-3px, -4px);
+  // }
   
   hr:after{
     content: '';
-    width: 40px;
-    border: 3px solid $primary-color;
+    width: 0px;
+    border: 0px solid $primary-color;
+    background: $primary-color;
     position: absolute;
-    transform: translate(-19px, -2px);
+    transform: translate(-49px, -2px);
   }
   .line{
     margin-top: 21px;
